@@ -1,2 +1,2 @@
-# Machine_Learning_QCD
+# Machine-Learning-QCD
 Masters Dissertation: Predicting masses and overlap integrals of particles
