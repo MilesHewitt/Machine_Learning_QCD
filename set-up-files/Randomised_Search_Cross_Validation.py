@@ -32,3 +32,9 @@ print('The best RMSE is:',np.sqrt(np.absolute(MSE_Random)))
 print('The best Alpha is:',grid_random.best_estimator_.alpha)
 print('The best Gamma is:',grid_random.best_estimator_.gamma)
 print('The best Kernel is:',grid_random.best_estimator_.kernel)
+
+##################################################################################################################################################
+# Best randomised search model
+Model_Rand = KernelRidge(kernel=grid_random.best_estimator_.kernel,alpha=grid_random.best_estimator_.alpha,gamma = grid_random.best_estimator_.gamma )
+Model_Rand.fit(X_train,y_train)
+RS_Prediction = Model_Rand.predict(X_test)
