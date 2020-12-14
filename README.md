@@ -22,5 +22,7 @@ The 'Example_Neural_Network.py' has one particular example of a neural network r
 ## Valuable Resources
 Below are listed the valuable works that aided this dissertation in particular.
 
-
+* [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
+* [A high-bias, low-variance introduction to Machine Learning for physicists](https://arxiv.org/abs/1803.08823)
+* [Quantum Chromodynamics on the Lattice](https://link.springer.com/book/10.1007/978-3-642-01850-3)
 
